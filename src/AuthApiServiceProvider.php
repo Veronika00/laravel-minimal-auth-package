@@ -11,6 +11,10 @@ class AuthApiServiceProvider extends ServiceProvider
         $this->loadRoutesFrom(__DIR__ . '/routes/api.php');
     }
 
+    $this->publishes([
+        __DIR__.'/Http/Controllers' => app_path('Http/Controllers/AuthController.php'),
+    ]);
+
     public function register()
     {
 
