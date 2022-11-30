@@ -15,5 +15,11 @@
         "psr-4": {
             "Pulovessy\\Auth\\": "src/"
         }
+    },
+
+    "extra": {
+        "providers": [
+            "Pullovessy\\Auth\\AuthApiServiceProvider"
+        ]
     }
 }
