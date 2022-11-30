@@ -1,0 +1,19 @@
+{
+    "name": "pulovessy/auth",
+    "description": "minimal api auth",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pulovessy",
+            "email": "kasyanov.a@internet.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Pulovessy\\Auth\\": "src/"
+        }
+    }
+}
